@@ -1,0 +1,1042 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./src/index.css">
+    <title>Spheal Restaurant</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+    <script src="https://kit.fontawesome.com/62d08f75ea.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+    <div class="fondoInicio">
+        <div>
+            <h1 class="titleRestaurant">
+                Spheal <span class="restaurant">Restaurant</span>
+            </h1>
+            <img src="./components/sphealLogo.png" class="sphealLogo">
+        </div>
+    </div>
+    <div class="containerFull">
+        <div class="containerMenu">
+            <img src="./components/sphealCafe.png" class="sphealCafe">
+            <img src="./components/sphealCafe.png" class="sphealCafe2">
+            <div>
+                <h2 class="titleMenu">
+                    Menu del restaurante
+                </h2>
+                <ul class="listaMenu">
+                    <li>
+                        <img src="./components/porcehelado.png" class="porcehelado1">
+                        <a href="#desayunos" class="prueba">
+                            Desayuno
+                        </a>
+                    </li>
+                    <li>
+                        <img src="./components/porcehelado.png" class="porcehelado2">
+                        <a href="#entradas" class="prueba">
+                            Entradas
+                        </a>
+                    </li>
+
+                    <li>
+                        <img src="./components/porcehelado.png" class="porcehelado3">
+                        <a href="#almuerzo" class="prueba">
+                            Almuerzo
+                        </a>
+                    </li>
+                    <li>
+                        <img src="./components/porcehelado.png" class="porcehelado4">
+                        <a href="#postre" class="prueba">
+                            Postre
+                        </a>
+                    </li>
+                    <li>
+                        <img src="./components/porcehelado.png" class="porcehelado5">
+                        <a href="#bebidas" class="prueba">
+                            Bebidas
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="containerDesayunos" id="desayunos">
+            <div>
+                <h3 class="desayunos">
+                    Desayunos
+                </h3>
+            </div>
+            <div class="containerCard">
+                <img src="./components/minccinoCafe.png" class="minccinoCafe">
+                <div class="card border-dark mb-3" style="width: 8rem; margin-top: 2vw; margin-right: 2rem;">
+                    <img src="./components/crepeLuminalia.png" class="card-img-top""">
+                    <div class="card border-dark mb-3">
+                        <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal"
+                            data-bs-target="#crepeLuminalia">
+                            <h5 class="card-title" style="text-align: center; font-size: 1.1rem;">
+                                crepe Luminalia</h5>
+                        </button>
+                        <div class="modal fade" id="crepeLuminalia" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel"><span
+                                                class="ingredientesCrepe">Crepe Luminalia</span></h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        El crepe Luminalia es un plato para el desayuno dulce, este esta constituido por
+                                        harina de trigo, huevo, leche, mantequilla, sal y azucar. El cual se forma una
+                                        masa fina y esta se cocina. Posteriormente se puede aderezar con lo que uno
+                                        desea. Ya sea frutas, crema o con cualquier topping que el cliente desee
+                                    </div>
+                                    <img src="./components/crepeLuminaliaImg.jpg">
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-primary"
+                                            data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img src="./components/minccinoCafe.png" class="minccinoCafe2">
+                <div class="card border-dark mb-3"
+                    style="width: 8rem; margin-top: 2vw; margin-right: 2rem; height: 13rem;">
+                    <img src="./components/malasada.png" class="card-img-top""">
+                    <div class="card border-dark mb-3">
+                        <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal"
+                            data-bs-target="#malasada">
+                            <h5 class="card-title" style="text-align: center; font-size: 1.1rem;">
+                                Malasadas</h5>
+                        </button>
+                        <div class="modal fade" id="malasada" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel"><span
+                                                class="malasada">Malasada</span></h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Las malasadas se hacen en forma de bolas a la que se le añade levadura y
+                                        posteriormente se fríen en aceite y se recubren de azúcar. Estos bollos llevan
+                                        crema adentro de diversos sabores
+                                    </div>
+                                    <img src="./components/malasadasImg.png">
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-primary"
+                                            data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="containerEntradas" id="entradas">
+            <div>
+                <h3 class="entradas">
+                    Entradas
+                </h3>
+                <div class="containerCardDesayuno">
+                    <img src="./components/kirliaCafe.png" class="kirlia1">
+                    <div class="card border-dark mb-3" style="width: 8rem; margin-top: 3vw; margin-right: 2rem;">
+                        <img src="./components/dugtrioSandwich.webp" class="card-img-top""">
+                        <div class="card border-dark mb-3">
+                            <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal"
+                                data-bs-target="#dugtrioSandwich">
+                                <h5 class="card-title" style="text-align: center; font-size: 1.1rem;">
+                                    Dugtrio Sándwiches</h5>
+                            </button>
+                            <div class="modal fade" id="dugtrioSandwich" tabindex="-1"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel"><span
+                                                    class="dugtrioSandwich">Dugtrio Sándwiches</span></h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            El sandwich esta constituido por pan integral, lechuga, tomate, cebolla,
+                                            salsas, queso, jamón e incluye una taza de té para si disfrute
+                                        </div>
+                                        <img src="./components/dugtrioSandwichImg.jpg">
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-primary"
+                                                data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border-dark mb-3" style="width: 8rem; margin-top: 3vw; margin-right: 2rem;">
+                        <img src="./components/pizzaQuesoRowlet.png" class="card-img-top"
+                            style="width: 6.2rem; margin-left: .7rem;">
+                        <div class="card border-dark mb-3">
+                            <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal"
+                                data-bs-target="#pizzaRowlet">
+                                <h5 class="card-title" style="text-align: center; font-size: 1rem;">
+                                    Pizza de queso Rowlet</h5>
+                            </button>
+                            <div class="modal fade" id="pizzaRowlet" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel"><span
+                                                    class="dugtrioSandwich">Pizza de queso Rowlet</span></h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Esta es una pizza llena de mucho queso, tambien lleva 2 aceitunas, un salami
+                                            y 2 hojas de menta que adornan la pizza
+                                        </div>
+                                        <img src="./components/pizzaQuesoRowletImg.png">
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-primary"
+                                                data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border-dark mb-3" style="width: 8rem; margin-top: 3vw; margin-right: 2rem;">
+                        <img src="./components/tostaditaChikorita.png" class="card-img-top"
+                            style="width: 7rem; margin-left: .4rem;">
+                        <div class="card border-dark mb-3">
+                            <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal"
+                                data-bs-target="#tostaditaChikorita">
+                                <h5 class="card-title" style="text-align: center; font-size: 1rem;">
+                                    Tostadita de Chikorita</h5>
+                            </button>
+                            <div class="modal fade" id="tostaditaChikorita" tabindex="-1"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel"><span
+                                                    class="dugtrioSandwich">Tostadita de Chikorita</span></h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Es un platillo que trae 3 tostadas. Las cuales se explicaran a continuacion:
+                                            <br><br>
+                                            1. La primera tostada trae un pan encima del pan se le añade una crema de
+                                            Hummus de albahaca, posteriormente se le añade unos garbanzos y por ultimo
+                                            una hoja de menta<br><br>
+
+                                            2. La segunda tostada encontraremos un puré de coliflor con ajo, los cuales
+                                            posee de igual forma garbanzos y por ultimo tambien posee una hoja de lauren
+                                            en el centro<br><br>
+
+                                            3. La segunda tostada encontraremos una mezcla de salsa de tomates con
+                                            mozzarella, prosciutto (Una especie de jamón italiano) y una cascara de
+                                            limón
+                                        </div>
+                                        <img src="./components/tostaditaChikoritaImg.jpg">
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-primary"
+                                                data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="./components/kirliaCafe.png" class="kirlia2">
+                </div>
+            </div>
+        </div>
+        <div class="containerAlmuerzos" id="almuerzo">
+            <div>
+                <h3 class="almuerzos">
+                    Almuerzos
+                </h3>
+                <div>
+                    <div class="containerCardDesayuno">
+                        <div class="card border-dark mb-3" style="width: 8rem; margin-top: 3vw; margin-right: 2rem;">
+                            <img src="./components/bolonesaYamper.png" class="card-img-top">
+                            <div class="card border-dark mb-3">
+                                <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal"
+                                    data-bs-target="#bolonesaYamper">
+                                    <h5 class="card-title" style="text-align: center; font-size: 1.1rem;">
+                                        Boloñesa Yamper</h5>
+                                </button>
+                                <div class="modal fade" id="bolonesaYamper" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel"><span
+                                                        class="bolonesaYamper">boloñesa Yamper</span></h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                Este platillo esta constituido por pasta gratinada, La cual lleva
+                                                nuestra increible salsa con carne. El platillo cuenta con algunas
+                                                rodajas de tomate cherry al igual que, algunas lamina finas de lechuga.
+                                                De igual forma lleva un pan en forma de cachorro pequeño con queso
+                                                amarillo en forma de corazon y de una cola. Ademas de unos pequeños
+                                                trozos de queso amarillo simulando unos destellos de rayos
+                                            </div>
+                                            <img src="./components/boloñesaYamperImg.png">
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-primary"
+                                                    data-bs-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card border-dark mb-3" style="width: 7.8rem; margin-top: 3vw; margin-right: 2rem;">
+                            <img src="./components/curriPikantePikachu.png" class="card-img-top">
+                            <div class="card border-dark mb-3">
+                                <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal"
+                                    data-bs-target="#curriPikachu">
+                                    <h5 class="card-title" style="text-align: center; font-size: .9rem;">
+                                        Curri Pikante Pikachu</h5>
+                                </button>
+                                <div class="modal fade" id="curriPikachu" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel"><span
+                                                        class="curriPikachu">Curri Pikante Pikachu</span></h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                Este es una platillo de arroz con curry, el cual es una especie de salsa
+                                                con carne picante. Este platillo tambien lleva algunos cortes de
+                                                salchicha y verduras
+                                            </div>
+                                            <img src="./components/curriPikantePikachuImg.png">
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-primary"
+                                                    data-bs-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card border-dark mb-3" style="width: 7.6rem; margin-top: 3vw; margin-right: 2rem;">
+                            <img src="./components/gratinadoCalabaza.png" class="card-img-top">
+                            <div class="card border-dark mb-3">
+                                <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal"
+                                    data-bs-target="#gratinadoCalabaza">
+                                    <h5 class="card-title" style="text-align: center; font-size: .9rem;">
+                                        Gratinado de Calabaza Pumpkaboo</h5>
+                                </button>
+                                <div class="modal fade" id="gratinadoCalabaza" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel"><span
+                                                        class="gratinadoCalabaza">Gratinado de Calabaza Pumpkaboo</span>
+                                                </h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                Es una sopa gratinada de cebolla, o tambien conocida como sopa de
+                                                cebolla francesa. Acompañada con verduras como brócoli, zanahorias y
+                                                kabocha. Y, por supuesto, el queso derretido por encima
+                                            </div>
+                                            <img src="./components/gratinadoCalabazaImg.png">
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-primary"
+                                                    data-bs-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card border-dark mb-3"
+                            style="width: 8rem; margin-top: 3vw; margin-right: 2rem; height: 13.2rem;">
+                            <img src="./components/ensaladaGossifleur.jpg" class="card-img-top"
+                                style="padding-bottom: .5rem; padding-top: 1.5rem;">
+                            <div class="card border-dark mb-3">
+                                <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal"
+                                    data-bs-target="#ensaladaGossifleur">
+                                    <h5 class="card-title" style="text-align: center; font-size: .9rem;">
+                                        Ensalada Gossifleur</h5>
+                                </button>
+                                <div class="modal fade" id="ensaladaGossifleur" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel"><span
+                                                        class="ensaladaGossifleur">Ensalada Gossifleur</span></h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                Esta ensalada trae arroz blanco con ajonjoli, igualmente trae una taza
+                                                de té que mas le guste, varios trozos de tomates picados con nuestra
+                                                grandiosa salsa tartara. Y en el centro se encontrara con una cama de
+                                                lechuga con repollo, de igual forma la ensalada traeria un poco de
+                                                nuestra salsa tartara y por ultimo en el centro trae una galleta grande
+                                                en forma de flor
+                                            </div>
+                                            <img src="./components/ensaladaGossifleurImg.png">
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-primary"
+                                                    data-bs-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card border-dark mb-3"
+                            style="width: 8rem; margin-top: 3vw; margin-right: 2rem; height: 13.2rem;">
+                            <img src="./components/platoCombinadoSnorlax.png" class="card-img-top"
+                                style="padding-bottom: .5rem; padding-top: 1.5rem;">
+                            <div class="card border-dark mb-3">
+                                <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal"
+                                    data-bs-target="#PlatoSnorlax">
+                                    <h5 class="card-title" style="text-align: center; font-size: 1rem;">
+                                        Plato Combinado Snorlax</h5>
+                                </button>
+                                <div class="modal fade" id="PlatoSnorlax" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel"><span
+                                                        class="PlatoSnorlax">Plato Combinado Snorlax</span></h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                En este plato el protagonista es nuestra increible carne que, encima de
+                                                ella se encontrara una rodaja de queso con una cara. Ademas viene
+                                                acompañado de 2 tipos de huevo, cocinado y frito. Tambie, lo acompaña
+                                                unas papas en forma de estrella un poco de lechuga y un tomate cherry
+                                                completo
+                                            </div>
+                                            <img src="./components/platoCombinadoSnorlaxImg.png">
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-primary"
+                                                    data-bs-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card border-dark mb-3"
+                            style="width: 8rem; margin-top: 3vw; margin-right: 2rem; height: 13.2rem;">
+                            <img src="./components/arrozTorchic.png" class="card-img-top"
+                                style="padding-bottom: .5rem; padding-top: .8rem;">
+                            <div class="card border-dark mb-3">
+                                <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal"
+                                    data-bs-target="#arrozTorchi">
+                                    <h5 class="card-title" style="text-align: center; font-size: 1rem;">
+                                        Arroz Torchic</h5>
+                                </button>
+                                <div class="modal fade" id="arrozTorchi" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel"><span
+                                                        class="PlatoSnorlax">Arroz Torchic</span></h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                Este es un plato con 2 tipos de arroz, Arroz blanco y otro arroz blanco
+                                                pero con colorante. Posee unas pechugas de pollo fritas encima del
+                                                arroz, unos tomates picados en trozos alrededor del plato y un pure de
+                                                papa abajo de todo. Ademas de terner verdura en la parte de atras del
+                                                plato
+                                            </div>
+                                            <img src="./components/arrozTorchicImg.png">
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-primary"
+                                                    data-bs-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card border-dark mb-3"
+                            style="width: 8rem; margin-top: 3vw; margin-right: 2rem; height: 13.2rem;">
+                            <img src="./components/hamburguesaSneseal.png" class="card-img-top"
+                                style="padding-bottom: .5rem; padding-top: .8rem;">
+                            <div class="card border-dark mb-3">
+                                <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal"
+                                    data-bs-target="#hamburguesaSneseal">
+                                    <h5 class="card-title" style="text-align: center; font-size: .9rem;">
+                                        Hamburguesa con Pepinillos Sneseal</h5>
+                                </button>
+                                <div class="modal fade" id="hamburguesaSneseal" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel"><span
+                                                        class="hamburguesaSneseal">Hamburguesa con Pepinillos
+                                                        Sneseal</span></h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                Una hamburguesa con pan tostado, una carne de 200gr. Una rodaja de queso
+                                                de mano y muchos pepinillos, ademas de nuestra increible salsa.
+                                                Acompañado con unas papas y algunos vegetales a los costados por si los
+                                                quiere añadir dentro de la hamburguesa o no
+                                            </div>
+                                            <img src="./components/hamburguesaSnesealImg.png">
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-primary"
+                                                    data-bs-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card border-dark mb-3"
+                            style="width: 8rem; margin-top: 3vw; margin-right: 2rem; height: 13.2rem;">
+                            <img src="./components/ArrozFritoPancham.png" class="card-img-top"
+                                style="padding-bottom: .5rem;">
+                            <div class="card border-dark mb-3">
+                                <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal"
+                                    data-bs-target="#arrozFrito">
+                                    <h5 class="card-title" style="text-align: center; font-size: .9rem;">
+                                        Arroz Frito Pancham</h5>
+                                </button>
+                                <div class="modal fade" id="arrozFrito" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h1 class="modal-title fs-5" id="exampleModalLabel"><span
+                                                        class="hamburguesaSneseal">Arroz Frito Pancham</span></h1>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                Como su nombre lo indica es un arroz frito. Este viene acompañado con
+                                                una salsa de soya aparte del plato. Ademas, de otros acompañamente como
+                                                una carne de pueco y unas masas de harina que en su interior poseen
+                                                carne de res
+                                            </div>
+                                            <img src="./components/ArrozFritoPanchamImg.png">
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-primary"
+                                                    data-bs-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="containerBebidas" id="bebidas">
+            <h3 class="bebidas">
+                Bebidas
+            </h3>
+            <div>
+                <div class="containerCardDesayuno">
+                    <div class="card border-dark mb-3"
+                        style="width: 8rem; margin-top: 3vw; margin-right: 2rem; padding-bottom: 2rem; height: 11.5rem;">
+                        <img src="./components/cafeEevee.png" class="card-img-top"
+                            style="padding-bottom: 0rem; padding-top: 1rem;">
+                        <div class="card border-dark mb-3">
+                            <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal"
+                                data-bs-target="#cafeEevee">
+                                <h5 class="card-title" style="text-align: center; font-size: 1.1rem;">
+                                    Cafe eevee</h5>
+                            </button>
+                            <div class="modal fade" id="cafeEevee" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel"><span
+                                                    class="cafeEevee">Cafe Eevee</span></h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Se le sirve el cafe en uno de nuestras tazas especiales. El cafe se sirve
+                                            como mas le guste al cliente, pero siempre haciendo un dibujo de Eevee con
+                                            la espuma del cafe
+                                        </div>
+                                        <img src="./components/cafeEeveeImg.png">
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-primary"
+                                                data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border-dark mb-3"
+                        style="width: 8rem; margin-top: 3vw; margin-right: 2rem; padding-bottom: 2rem; height: 11.5rem;">
+                        <img src="./components/FloralTe.png" class="card-img-top"
+                            style="padding-bottom: 0rem; padding-top: 1.5rem;">
+                        <div class="card border-dark mb-3">
+                            <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal"
+                                data-bs-target="#teFloral">
+                                <h5 class="card-title" style="text-align: center; font-size: 1.2rem;">
+                                    Floral Té</h5>
+                            </button>
+                            <div class="modal fade" id="teFloral" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel"><span
+                                                    class="cafeEevee">Floral Té</span></h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Es un té con varios insumos y flores que refrescan y relajan la garganta.
+                                            Ademas es dulce para el paladar
+                                        </div>
+                                        <img src="./components/FloralTeImg.png">
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-primary"
+                                                data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border-dark mb-3"
+                        style="width: 8rem; margin-top: 3vw; margin-right: 2rem; padding-bottom: 2rem; height: 11.5rem;">
+                        <img src="./components/FrappeAvellana.png" class="card-img-top"
+                            style="padding-bottom: 0rem; height: 6rem; width: 5rem; margin-left: 1.4rem;">
+                        <div class="card border-dark mb-3">
+                            <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal"
+                                data-bs-target="#frappeAvellana">
+                                <h5 class="card-title" style="text-align: center; font-size: .9rem;">
+                                    Frappé con Avellana Buneary</h5>
+                            </button>
+                            <div class="modal fade" id="frappeAvellana" tabindex="-1"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel"><span
+                                                    class="cafeEevee">Frappé con Avellana Buneary</span></h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Esta bebida contiene. Un mousse de chocolate con avellanas con galletas de
+                                            canela y crema de mantequilla de maní
+                                        </div>
+                                        <img src="./components/FrappeAvellanaImg.png">
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-primary"
+                                                data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border-dark mb-3"
+                        style="width: 8rem; margin-top: 3vw; margin-right: 2rem; padding-bottom: 2rem; height: 11.5rem;">
+                        <img src="./components/chocolateNubes.png" class="card-img-top"
+                            style="padding-bottom: 0rem; width: 5rem; margin-left: 1.4rem; height: 10rem;">
+                        <div class="card border-dark mb-3">
+                            <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal"
+                                data-bs-target="#chocolateNube">
+                                <h5 class="card-title" style="text-align: center; font-size: 1rem;">
+                                    Chocolate con Nubes Litwick</h5>
+                            </button>
+                            <div class="modal fade" id="chocolateNube" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel"><span
+                                                    class="cafeEevee">Chocolate con Nubes Litwick</span></h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Trae una taza de chocolate caliente con varios malvaviscos
+                                        </div>
+                                        <img src="./components/chocolateNubesImg.png">
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-primary"
+                                                data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border-dark mb-3"
+                        style="width: 8rem; margin-top: 3vw; margin-right: 2rem; padding-bottom: 2rem; height: 11.5rem;">
+                        <img src="./components/batidoMiltank.png" class="card-img-top"
+                            style="padding-bottom: 0rem; width: 5rem; margin-left: 1.4rem; height: 10rem; margin-bottom: .7rem;">
+                        <div class="card border-dark mb-3">
+                            <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal"
+                                data-bs-target="#batidoMiltank">
+                                <h5 class="card-title" style="text-align: center; font-size: 1.2rem;">
+                                    Batido de Miltank</h5>
+                            </button>
+                            <div class="modal fade" id="batidoMiltank" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel"><span
+                                                    class="batidoMiltank">Batido de Miltank</span></h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Es un batido de leche con diversa mezcla de frutas que se encuentren
+                                            disponibles. Suele acompañarse con algunas frutas
+                                        </div>
+                                        <img src="./components/batidoMiltankImg.png">
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-primary"
+                                                data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border-dark mb-3"
+                        style="width: 8rem; margin-top: 3vw; margin-right: 2rem; padding-bottom: 2rem; height: 11.5rem;">
+                        <img src="./components/cafeTeddiursa.png" class="card-img-top"
+                            style="padding-bottom: 0rem; width: 5rem; margin-left: 1.4rem; height: 10rem;">
+                        <div class="card border-dark mb-3">
+                            <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal"
+                                data-bs-target="#cafeTeddiursa">
+                                <h5 class="card-title" style="text-align: center; font-size: 1rem;">
+                                    Cafe de Hielo Teddiursa</h5>
+                            </button>
+                            <div class="modal fade" id="cafeTeddiursa" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel"><span
+                                                    class="cafeTeddiursa">Cafe de Hielo Teddiursa</span></h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Es una copa llena de leche chocolatada con crema muy esponjosa. Encima de la
+                                            crema lleva 2 donas de tamaño mediano y una galleta con forma de media luna
+                                        </div>
+                                        <img src="./components/cafeTeddiursaImg.png">
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-primary"
+                                                data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="containerPostres" id="postre">
+            <h3 class="postres">
+                Postres
+            </h3>
+            <div>
+                <div class="containerCardDesayuno">
+                    <div class="card border-dark mb-3"
+                        style="width: 8rem; margin-top: 3vw; margin-right: 2rem; padding-bottom: 2rem; height: 11.5rem;">
+                        <img src="./components/tortitaEevee.png" class="card-img-top"
+                            style="padding-bottom: 0rem; padding-top: 1rem;">
+                        <div class="card border-dark mb-3">
+                            <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal"
+                                data-bs-target="#tortitaEevee">
+                                <h5 class="card-title" style="text-align: center; font-size: 1rem;">
+                                    Tortita Eevee</h5>
+                            </button>
+                            <div class="modal fade" id="tortitaEevee" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel"><span
+                                                    class="cafeEevee">TortitaEevee</span></h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Este es un postre el cual lleva varias capas de waffles con una contextura
+                                            gruesa. Encima del ultimo waffle lleva crema batida, igualmente que en la
+                                            parte de abajo. Lleva varias frutas como decoracion. En la parte superior
+                                            junto con la crema lleva una especie de cabeza echa de galleta junto con las
+                                            orejas con un relleno de chocolate. Y por ultimo una cola que se encuentra
+                                            en la parte de atras del plato
+                                        </div>
+                                        <img src="./components/tortitaEeveeImg.png">
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-primary"
+                                                data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border-dark mb-3"
+                        style="width: 8rem; margin-top: 3vw; margin-right: 2rem; padding-bottom: 2rem; height: 11.5rem;">
+                        <img src="./components/gofresCombee.png" class="card-img-top"
+                            style="padding-bottom: 0rem; padding-top: 1.5rem; padding-bottom: 1rem;">
+                        <div class="card border-dark mb-3">
+                            <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal"
+                                data-bs-target="#gofresCombee">
+                                <h5 class="card-title" style="text-align: center; font-size: 1rem;">
+                                    Gofres de Miel Combee</h5>
+                            </button>
+                            <div class="modal fade" id="gofresCombee" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel"><span
+                                                    class="cafeEevee">Gofres de Miel Combee</span></h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Son unos waffles bañados en mucha miel y con algunas frutas para acompañar
+                                        </div>
+                                        <img src="./components/gofresCombeeImg.png">
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-primary"
+                                                data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border-dark mb-3"
+                        style="width: 8rem; margin-top: 3vw; margin-right: 2rem; padding-bottom: 0rem; height: 11.5rem;">
+                        <img src="./components/granizadoSwablu.png" class="card-img-top"
+                            style="padding-bottom: 0rem; padding-top: 0rem; padding-bottom: 0rem; height: 7rem; width: 5.5rem; margin-left: 1rem;">
+                        <div class="card border-dark mb-3">
+                            <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal"
+                                data-bs-target="#granizadoSwablu">
+                                <h5 class="card-title" style="text-align: center; font-size: .9rem;">
+                                    Granizado Esponjoso Swablu</h5>
+                            </button>
+                            <div class="modal fade" id="granizadoSwablu" tabindex="-1"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel"><span
+                                                    class="cafeEevee">Granizado Esponjoso de Swablu</span></h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Este postre es perfecto para cuando hace mucho calor. Es hielo triturado con
+                                            saborizante especial de sabor a mora azul, Ademas de una esfera de helado de
+                                            pitufo (basicamente es de nube)
+                                        </div>
+                                        <img src="./components/granizadoSwabluImg.png">
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-primary"
+                                                data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border-dark mb-3"
+                        style="width: 8rem; margin-top: 3vw; margin-right: 2rem; padding-bottom: 0rem; height: 11.5rem;">
+                        <img src="./components/sundaeVulpix.png" class="card-img-top"
+                            style="padding-bottom: 0rem; padding-top: 0rem; padding-bottom: .5rem; height: 7rem; width: 5.5rem; margin-left: 1rem;">
+                        <div class="card border-dark mb-3">
+                            <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal"
+                                data-bs-target="#sundaeVulpix">
+                                <h5 class="card-title" style="text-align: center; font-size: 1rem;">
+                                    Sundae de Caramelo Vulpix</h5>
+                            </button>
+                            <div class="modal fade" id="sundaeVulpix" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel"><span
+                                                    class="cafeEevee">Sundae de Caramelo Vulpix</span></h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Es un postre perfecto con diversidad de sabores. Comenzamos con crema batida
+                                            y chocolate derretido en el fondo. Para luego añadirle una esfera de helado
+                                            en el centro, acompañado alrededor de varias frutas como fresa, platanos y
+                                            mandarinas. Trae tambien varios trozos de chocolate encima de la esfera y
+                                            alrededor de la copa. Ademas de traer galletas en la parte de atras de la
+                                            copa
+                                        </div>
+                                        <img src="./components/SandaeVulpixImg.png">
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-primary"
+                                                data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border-dark mb-3"
+                        style="width: 8rem; margin-top: 3vw; margin-right: 2rem; padding-bottom: 0rem; height: 11.5rem;">
+                        <img src="./components/cupcakesAlcremie.png" class="card-img-top"
+                            style="padding-bottom: 0rem; padding-top: 0rem; padding-bottom: .5rem; height: 7rem; width: 5.5rem; margin-left: 1rem;">
+                        <div class="card border-dark mb-3">
+                            <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal"
+                                data-bs-target="#cupcakesAlcremie">
+                                <h5 class="card-title" style="text-align: center; font-size: 1rem;">
+                                    Cupcakes Alcremie</h5>
+                            </button>
+                            <div class="modal fade" id="cupcakesAlcremie" tabindex="-1"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel"><span
+                                                    class="cafeEevee">Cupcakes Alcremie</span></h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Perfecto para comer con compañia. Es un servicio de cupcakes el cual trae 5
+                                            Alcremie que vienen de diferente color. Cada color es diferente:
+                                            Verde->Limón, Naranja->Naranja, Rosa->Fresa, blanco->Crema Batida y el
+                                            morado->Mora azul. Y la base del panquecito es de chocolate
+                                        </div>
+                                        <img src="./components/cupcakesAlcremieImg.png">
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-primary"
+                                                data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card border-dark mb-3"
+                        style="width: 8rem; margin-top: 3vw; margin-right: 2rem; padding-bottom: 0rem; height: 11.5rem;">
+                        <img src="./components/milhojasSylveon.png" class="card-img-top"
+                            style="padding-bottom: 0rem; padding-top: 0rem; padding-bottom: .5rem; height: 7rem; width: 5.5rem; margin-left: 1rem;">
+                        <div class="card border-dark mb-3">
+                            <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal"
+                                data-bs-target="#milhojasSylveon">
+                                <h5 class="card-title" style="text-align: center; font-size: 1rem;">
+                                    Milhojas Sylveon</h5>
+                            </button>
+                            <div class="modal fade" id="milhojasSylveon" tabindex="-1"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel"><span
+                                                    class="cafeEevee">Milhojas Sylveon</span></h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Es un pan el cual adentro este contiene helado y trozos de fresa picado. Al
+                                            igual que posee varias frutas a un costado del sandwich. Y por ultimo posee
+                                            una esfera de helado rosa con un lazo comestible de decoración. El cual es
+                                            de malvavisco
+                                        </div>
+                                        <img src="./components/milhojasSylveonImg.png">
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-primary"
+                                                data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="piePagina">
+        <div class="grupo1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img>
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>SOBRE NOSOTROS</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, officiis placeat. Dignissimos
+                    vero quam fugit cumque reprehenderit alias dolor! Soluta cum consequuntur iste architecto distinctio
+                    atque non qui inventore doloribus?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore enim similique neque minima aliquam.
+                    Quisquam iste quidem ratione delectus voluptatibus odio quaerat illum, magnam laudantium. Nesciunt
+                    doloremque voluptas ullam at?</p>
+            </div>
+            <div class="box">
+                <h2>SIGUENOS</h2>
+                <div class="redSocial">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo2">
+            <small>&copy; 2021 <b>Restaurant Spheal</b> - Todos los Derechos Reservados.</small>
+        </div>
+    </footer>
+</body>
+
+</html>

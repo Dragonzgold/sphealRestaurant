@@ -1,0 +1,6 @@
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    <h5 class="card-title" style="text-align: center; font-size: 1.1rem;">
+        Crepe Luminalia</h5>
+</button>
+
+El crepe Luminalia es un plato para el desayuno dulce, este esta constituido por harina de trigo, huevo, leche, mantequilla, sal y azucar. El cual se forma una masa fina y esta se cocina. Posteriormente se puede aderezar con lo que uno desea. Ya sea frutas, crema o con cualquier topping que el cliente desee
